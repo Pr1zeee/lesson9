@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
 
 :root {
-    --accent: #ff66bf;
+    --accent: #ff6666;
     --dark: #1a2636;
-    --light: #EBF5EE;
-    --border: 5px solid var(--accent);
+    --light: rgb(0, 153, 46);
+    --border: 10px solid var(--accent);
 }
 
 body {
@@ -39,4 +39,34 @@ div {
     padding-left: 1em;
     color: var(--accent);
     opacity: .35;
+}
+
+.table {
+    display: table;
+}
+
+.table p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    /* align-items: center;
+       justify-content: center; */
+}
+
+.margins {
+    display: grid;
+}
+
+.margins p {
+    margin:auto;
 }
